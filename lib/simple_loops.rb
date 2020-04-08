@@ -31,13 +31,3 @@ def return_string_array(array)
   end
   new_array
 end
-
-
-
-
-describe 'return_string_array' do
-  it 'takes in an array of elements, converts them to strings and returns them all in a new array' do
-    array = [5, 4, 3, 2, 1]
-    expect(return_string_array(array)).to eq(["5", "4", "3", "2", "1"])
-  end
-end
