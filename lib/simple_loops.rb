@@ -24,7 +24,8 @@ def output_array(array)
     count += 1
   end
 end
-  
+
+# loops over a provided array, converts each element in that array into a string then return a new array of the converted elements
 def return_string_array(array)
   count = 0
   new_array = []
