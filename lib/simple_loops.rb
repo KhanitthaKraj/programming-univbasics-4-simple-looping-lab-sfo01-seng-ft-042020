@@ -7,7 +7,7 @@ def loop_message_five_times(message)
   end
 end
 
-# takes in message & number then 
+# takes in message & number then outputs that message that number of times
 def loop_message_n_times(message, number)
   count = 0
   while count < number do
