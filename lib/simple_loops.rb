@@ -16,7 +16,7 @@ def loop_message_n_times(message, number)
   end
 end
 
-# takes in array, loops over the array & outputs
+# takes in array, loops over the array & outputs each element in the array
 def output_array(array)
   count = 0
   while count < array.length do
