@@ -28,6 +28,7 @@ end
 # loops over a provided array, converts each element in that array into a string then return a new array of the converted elements
 def return_string_array(array)
   count = 0
+  # create new array to store converted elements
   new_array = []
   while count < array.length do
     new_array << array[count].to_s
