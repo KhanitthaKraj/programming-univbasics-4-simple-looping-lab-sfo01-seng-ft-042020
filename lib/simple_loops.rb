@@ -23,18 +23,17 @@ def output_array(array)
   end
 end
   
-
-
-
-describe 'output_array' do
-
-  it 'takes in a message and a number outputs the message that number of times' do
-    array = ["Be yourself;", "everyone else is already taken", "- Oscar Wilde"]
-    expect { output_array(array) }.to output(/Be yourself;\neveryone else is already taken\n- Oscar Wilde/).to_stdout, "Expected:\n\nBe yourself;\neveryone else is already taken\n- Oscar Wilde"
-    array = [5, 4, 3, 2, 1]
-    expect { output_array(array) }.to output(/5\n4\n3\n2\n1\n/).to_stdout
+def return_string_array(array)
+  count = 0
+  new_array = []
+  while count < array.length do
+    puts
   end
+  new_array
 end
+
+
+
 
 describe 'return_string_array' do
   it 'takes in an array of elements, converts them to strings and returns them all in a new array' do
